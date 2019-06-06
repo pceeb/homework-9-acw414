@@ -8,7 +8,6 @@ also share your questionnaire with the group that created the program __by the e
 
 ## Peer Review for MiSebastes Annotator
 
----
 #### 1. Is the Readme file the first document displayed upon lading the Github?  Does this Readme page include a title, and the name and contact information for all project members?
 Yes! Looks good
 
@@ -69,7 +68,7 @@ I think making the intro a little less jargon-y could also help. But I know its 
 ---
 
 ## Peer Review for Info-Fish: Matching eDNA Recovered Species to Ecological Information from Fishbase
----
+
 ### The Readme
 
 #### 1. Is the Readme file the first document displayed upon lading the Github?  Does this Readme page include a title, and the name and contact information for all project members?
