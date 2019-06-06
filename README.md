@@ -16,7 +16,7 @@ The purpose is to identify which Rockfish species share the same genetic barcode
 The intro is a little hard to understand because its so technical. Maybe splitting bits into different paragraphs could make it a little more digestible?
 
 #### 3. Is there a program workflow and is it easy to understand?  What -in your own words- is the program workflow?
-Its a little complicated. 
+Its a little complicated.   
 The program takes the input file, removes any repeated sequences, but I get lost at "with all species that share the barcode assigned to the sequence barcodes with different species that share a barcode. "
 
 #### 4. Are the dependencies indicated in the workflow?  If there are Hoffman2 specific requirements are they indicated?
@@ -61,7 +61,7 @@ N/a
 ### General
 
 #### 13. Give __at least two__ suggestions for ways to improve the GitHub page or the operation of the program.
-I think having more defined sections with bolded headers could improve the organization/readability of the readme
+I think having more defined sections with bolded headers could improve the organization/readability of the readme.   
 I think making the intro a little less jargon-y could also help. But I know its a specific code for experts, so this probably isnt important. Maybe just include some paragraphs in the intro to break it up
 :)
 
@@ -75,12 +75,12 @@ I think making the intro a little less jargon-y could also help. But I know its 
 Yes! Looks great
 
 #### 2. Is the purpose of this program clear from the Introduction?  What -in your own words- is the motivation behind the program.
-Yes! I love how you get into the purpose of the program by the 3rd sentence. 
+Yes! I love how you get into the purpose of the program by the 3rd sentence.    
 The motivation is to make it easier to assign trait information to an eDNA file that has been processed by Anacapa. 
 
 #### 3. Is there a program workflow and is it easy to understand?  What -in your own words- is the program workflow?
 Yes, theres a workflow but maybe it could be a bit more detailed (like explain how it does things? and what an ASV is)
-It takes the input file, extracts the unique species, searches them through fishbase (by matching the ASVs to the ASVs in fishbase?), and then makes an output table.
+It takes the input file, extracts the unique species, searches them through fishbase (by matching the ASVs to the ASVs in fishbase?), and then makes an output table.   
 - the Project Outline section includes all these things in more detail. maybe move this bit to your workflow section?
 
 #### 4. Are the dependencies indicated in the workflow?  If there are Hoffman2 specific requirements are they indicated?
@@ -114,9 +114,9 @@ N/a ? I think
 Yes
 
 #### 11. Where you able to run the Vignette using the small test dataset? If not what errors did you get?  If so was it easy to run the dataset?  Where the instructions clear.
-When i type "bash final_project_bash_script.sh -w /output_directory -a /directory_with_file/Fish_taxonomy_file.txt" into the command line I get the error message "bash: final_project_bash_script.sh: No such file or directory"
+When i type "bash final_project_bash_script.sh -w /output_directory -a /directory_with_file/Fish_taxonomy_file.txt" into the command line I get the error message "bash: final_project_bash_script.sh: No such file or directory"   
 
-I changed the script name to the one in the directory, (fishbase_bash_script.sh). I then tried the command "bash fishbase_bash_script.sh -w /output_directory -a /directory_with_file/Fish_taxonomy_file.txt"
+I changed the script name to the one in the directory, (fishbase_bash_script.sh). I then tried the command "bash fishbase_bash_script.sh -w /output_directory -a /directory_with_file/Fish_taxonomy_file.txt"   
 I got the message:
 ```
 The variable stored in -w is /output_directory
@@ -137,4 +137,4 @@ No I couldnt :(
 
 #### 13. Give __at least two__ suggestions for ways to improve the GitHub page or the operation of the program.
 Check the bit of the code (line 42?) that makes an error message. 
-Reorganize the readme to include some of the later details in the workflow + instructions sections. 
+Reorganize the readme to include some of the later details in the workflow + instructions sections.    
